@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #fff7fc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c4e4ff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  width: 350px;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input {
+  border: none;
+  height: 45px;
+  padding: 0.25rem 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  width: calc(100% - 2rem);
+  outline: none;
+}
+
+input:focus {
+  border: none;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+i {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #000;
+  border-radius: 3px;
+  padding: 0.25rem;
+  height: 40px;
+}
+
+select {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  width: 80px;
+}
+
+.select-container > img {
+  width: 40px;
+}
+
+.from,
+.to {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.msgContainer {
+  display: flex;
+  align-items: start;
+  width: 100%;
+}
+
+.msg {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.exchangeButton {
+  border: 1.5px solid #008dda;
+  outline: none;
+  padding: 1rem;
+  background: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+button:hover {
+  background: #008dda;
+  color: white;
+  border: 1.5px solid #008dda;
+}
+
+option {
+  width: 90px;
+}
